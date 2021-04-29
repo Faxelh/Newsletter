@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bulletin  d'information</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="tz.ico">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="bulletin.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+        <div class="bx bx-x ferme"></div>
+        <div class="letter">
+            <form   action="https://formspree.io/f/xnqoerdp" method="post">
+                <img src="https://media.giphy.com/media/MzmIMJydJH6eNSOqy3/giphy.gif" alt="">
+                <h3>Abonnez-vous aux dernières mises à jour</h3>
+                <div class="inputBox">
+                    <label for="email"></label>
+                    <input type="email" name="_replyto" placeholder="Entrer votre mail" id="email" onkeyup="validates();" required>
+                    <b class="check_mail"></b>
+                    <input type="submit" value="S'abonner">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="bulletin.js"></script>
+</body>
+</html>
